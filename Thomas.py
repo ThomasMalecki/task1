@@ -59,7 +59,6 @@ def solve_csp(word1, word2, word3):
         return None
 
 # Streamlit UI
-st.title("CSP Solver")
 st.write("Enter three words to find a valid digit assignment:")
 
 word1 = st.text_input("Enter the first word:")
